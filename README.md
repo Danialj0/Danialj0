@@ -1,123 +1,99 @@
-# Danial j
-
 <p align="center">
-  <img src="./banner.svg" alt="Danial j — systems builder" width="100%" />
+  <img src="./banner.svg" alt="DANIAL J — systems terminal" width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://www.danialj.com"><img src="https://img.shields.io/badge/site-danialj.com-4da3ff?style=for-the-badge&labelColor=070708" alt="Website" /></a>
-  <a href="mailto:info@danialj.com"><img src="https://img.shields.io/badge/email-info%40danialj.com-b4b8c2?style=for-the-badge&labelColor=070708" alt="Email" /></a>
-  <a href="https://www.linkedin.com/in/danial-j-9a9320375"><img src="https://img.shields.io/badge/linkedin-Danial%20j-0A66C2?style=for-the-badge&labelColor=070708" alt="LinkedIn" /></a>
+  <a href="https://www.danialj.com">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=39FF14&center=true&vCenter=true&multiline=true&width=720&height=70&lines=systems+builder+%7C+AI+%C2%B7+data+%C2%B7+automation;shipping+live+platforms+%E2%80%94+not+slide+decks" alt="typing" />
+  </a>
 </p>
 
----
-
-### systems builder
-
-I design and ship **production AI products**, **analytics platforms**, and **automation infrastructure** — built to run after demos end.
-
-Industrial engineering trained me to optimize under constraint. Software is where I execute.
-
 <p align="center">
-  <img src="./loop.svg" alt="observe · analyze · decide · execute" width="720" />
+  <a href="https://www.danialj.com"><img src="https://img.shields.io/badge/site-danialj.com-39ff14?style=for-the-badge&labelColor=05070e&logoColor=39ff14" alt="Website" /></a>
+  <a href="mailto:info@danialj.com"><img src="https://img.shields.io/badge/email-info%40danialj.com-4da3ff?style=for-the-badge&labelColor=05070e" alt="Email" /></a>
+  <a href="https://www.linkedin.com/in/danial-j-9a9320375"><img src="https://img.shields.io/badge/linkedin-Danial%20j-00eaff?style=for-the-badge&labelColor=05070e" alt="LinkedIn" /></a>
 </p>
 
----
-
-### featured systems
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-
-**Live platform · danialj.com**  
-First-party analytics, hardened contact, admin inbox, scheduled reports — the site is the case study.
-
-`Next.js` `Supabase` `Vercel` `HMAC`
-
-<a href="https://www.danialj.com">Open site →</a>
-
-</td>
-    <td width="50%" valign="top">
-
-**Hooshmand · culinary AI chatbot**  
-Retrieval before generation. Pantry-aware matching. Streaming replies in chat — cooking only.
-
-`Python` `RAG` `Gemini` `Groq`
-
-<a href="https://www.danialj.com/#hooshmand">See product →</a>
-
-</td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-
-**Decision intelligence**  
-Fragmented ERP / CRM / sheets / APIs → one normalized decision layer for operators.
-
-`ETL` `BI` `Python` `Forecasting`
-
-</td>
-    <td width="50%" valign="top">
-
-**Agent automation**  
-n8n owns the writes. A typed Python agent decides — fulfill / hold / escalate.
-
-`n8n` `Agents` `CRM` `ERP`
-
-</td>
-  </tr>
-</table>
-
----
-
-### stack
+<br/>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Data-4da3ff?style=for-the-badge&labelColor=070708" alt="Data" />
-  <img src="https://img.shields.io/badge/ML-16161a?style=for-the-badge&labelColor=070708&color=4da3ff" alt="ML" />
-  <img src="https://img.shields.io/badge/AI-070708?style=for-the-badge&labelColor=4da3ff&color=070708" alt="AI" />
-  <img src="https://img.shields.io/badge/Automation-b4b8c2?style=for-the-badge&labelColor=070708" alt="Automation" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
-  <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n" />
+  <img src="./panel-left.svg" width="48%" alt="stack terminal" />
+  &nbsp;
+  <img src="./panel-right.svg" width="48%" alt="featured terminal" />
+</p>
+
+<br/>
+
+<p align="center">
+  <img src="./loop.svg" alt="observe → analyze → decide → execute" width="720" />
 </p>
 
 ---
 
-### signal
+### `whoami`
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Danialj0&show_icons=true&include_all_commits=true&count_private=true&theme=transparent&bg_color=070708&title_color=4da3ff&text_color=f4f4f6&icon_color=4da3ff&hide_border=true&ring_color=4da3ff" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Danialj0&layout=compact&theme=transparent&bg_color=070708&title_color=4da3ff&text_color=f4f4f6&hide_border=true&langs_count=8" alt="Top languages" />
-</p>
+Industrial engineering background. I design and ship **production AI products**, **analytics platforms**, and **automation infrastructure** — systems that keep running after the demo ends.
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Danialj0&theme=dark&background=070708&ring=4da3ff&fire=4da3ff&currStreakLabel=f4f4f6&sideLabels=b4b8c2&currStreakNum=f4f4f6&sideNums=f4f4f6&dates=b4b8c2&hide_border=true" alt="GitHub streak" />
-</p>
+```bash
+$ whoami
+danial j · systems builder
 
----
+$ focus
+AI products · BI · automation · data engineering
 
-### currently building
-
-```text
-> boot build-engine
-> focus   AI products · BI · automation · data eng
-> proof   danialj.com — repo-backed live platform
-> status  shipping systems that survive contact with reality
+$ proof
+https://www.danialj.com  # live platform = case study
 ```
 
 ---
 
-### talk to me
+### `./featured`
 
-Hard problems only — production systems, not slide decks.
+| ID | System | Stack |
+|----|--------|-------|
+| `01` | **[danialj.com](https://www.danialj.com)** — analytics, contact, admin, reports | Next.js · Supabase · Vercel |
+| `02` | **[Hooshmand](https://www.danialj.com/#hooshmand)** — culinary AI chatbot (RAG) | Python · Gemini · Groq |
+| `03` | Decision intelligence — ERP/CRM/sheets → one layer | ETL · BI · Forecasting |
+| `04` | Agent automation — decide → fulfill / hold / escalate | n8n · Agents · CRM/ERP |
 
-**Email:** [info@danialj.com](mailto:info@danialj.com)  
-**Site:** [danialj.com](https://www.danialj.com)  
-**LinkedIn:** [Danial j](https://www.linkedin.com/in/danial-j-9a9320375)
+---
+
+### `./signal`
 
 <p align="center">
-  <sub>graphite · electric · built to last</sub>
+  <img height="168" src="https://github-readme-stats.vercel.app/api?username=Danialj0&show_icons=true&include_all_commits=true&count_private=true&theme=radical&bg_color=05070e&title_color=39ff14&text_color=e8eef8&icon_color=4da3ff&hide_border=true&ring_color=4da3ff" alt="GitHub stats" />
+  <img height="168" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Danialj0&layout=compact&theme=radical&bg_color=05070e&title_color=39ff14&text_color=e8eef8&hide_border=true&langs_count=8" alt="Top languages" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Danialj0&theme=radical&background=05070e&ring=39ff14&fire=4da3ff&currStreakLabel=e8eef8&sideLabels=7f93b3&currStreakNum=39ff14&sideNums=e8eef8&dates=7f93b3&hide_border=true" alt="GitHub streak" />
+</p>
+
+---
+
+### `./stack`
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
+  <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n" />
+  <img src="https://img.shields.io/badge/AI%2FRAG-39ff14?style=for-the-badge&labelColor=05070e" alt="AI/RAG" />
+  <img src="https://img.shields.io/badge/Data%2FBI-4da3ff?style=for-the-badge&labelColor=05070e" alt="Data/BI" />
+  <img src="https://img.shields.io/badge/Automation-00eaff?style=for-the-badge&labelColor=05070e" alt="Automation" />
+</p>
+
+---
+
+### `./contact`
+
+```diff
++ Hard problems only — production systems, not decks.
+! Email    info@danialj.com
+! Site     https://www.danialj.com
+! LinkedIn Danial j
+```
+
+<p align="center">
+  <sub><code>neon · graphite · built to last</code></sub>
 </p>

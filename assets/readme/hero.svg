@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-label="danial j — systems builder">
+  <defs>
+  <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffffff" stop-opacity=".11"/>
+    <stop offset="1" stop-color="#ffffff" stop-opacity=".035"/>
+  </linearGradient>
+  <linearGradient id="glassTile" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffffff" stop-opacity=".09"/>
+    <stop offset="1" stop-color="#ffffff" stop-opacity=".025"/>
+  </linearGradient>
+  <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#ffffff" stop-opacity=".38"/>
+    <stop offset=".55" stop-color="#4da3ff" stop-opacity=".18"/>
+    <stop offset="1" stop-color="#ffffff" stop-opacity=".08"/>
+  </linearGradient>
+  <linearGradient id="spec" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffffff" stop-opacity=".32"/>
+    <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#4da3ff" stop-opacity=".85"/>
+    <stop offset="1" stop-color="#2a6bb0" stop-opacity=".45"/>
+  </linearGradient>
+  <linearGradient id="shimmer" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#f4f4f6"/>
+    <stop offset=".42" stop-color="#f4f4f6"/>
+    <stop offset=".5" stop-color="#ffffff"/>
+    <stop offset=".58" stop-color="#f4f4f6"/>
+    <stop offset="1" stop-color="#f4f4f6"/>
+    <animate attributeName="x1" values="-1;1" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="0;2" dur="9s" repeatCount="indefinite"/>
+  </linearGradient>
+  <radialGradient id="orbA" cx="22%" cy="18%" r="55%">
+    <stop offset="0" stop-color="#4da3ff" stop-opacity=".42"/>
+    <stop offset="1" stop-color="#4da3ff" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="orbB" cx="82%" cy="78%" r="48%">
+    <stop offset="0" stop-color="#7ec1ff" stop-opacity=".24"/>
+    <stop offset="1" stop-color="#7ec1ff" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="orbC" cx="70%" cy="12%" r="35%">
+    <stop offset="0" stop-color="#4da3ff" stop-opacity=".16"/>
+    <stop offset="1" stop-color="#4da3ff" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+    <feDropShadow dx="0" dy="22" stdDeviation="26" flood-color="#000000" flood-opacity=".58"/>
+  </filter>
+  <filter id="grain">
+    <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="7" result="n"/>
+    <feColorMatrix type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.035 0" in="n"/>
+  </filter>
+</defs>
+  <rect width="1280" height="360" fill="#070708"/>
+  <rect width="1280" height="360" fill="url(#orbA)"/>
+  <rect width="1280" height="360" fill="url(#orbB)"/>
+  <rect width="1280" height="360" fill="url(#orbC)"/>
+  <rect width="1280" height="360" filter="url(#grain)" opacity="1"/>
+  <rect x="100" y="50" width="1080" height="260" rx="24" fill="url(#glass)" stroke="url(#rim)" stroke-width="1.2" filter="url(#shadow)"/>
+  <rect x="101" y="51" width="1078" height="58" rx="22" fill="url(#spec)" opacity=".9"/>
+
+  <circle cx="132" cy="78" r="5.5" fill="#ff5f57" opacity=".55"/>
+  <circle cx="152" cy="78" r="5.5" fill="#febc2e" opacity=".55"/>
+  <circle cx="172" cy="78" r="5.5" fill="#28c840" opacity=".55"/>
+  <text x="196" y="83" fill="#f4f4f6" fill-opacity=".40" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace" font-size="12" letter-spacing="0.08em">~/danial-j — main</text>
+  <circle cx="1048" cy="78" r="5" fill="#4da3ff">
+    <animate attributeName="opacity" values="1;.35;1" dur="2.4s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="5;6.4;5" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <text x="1064" y="83" fill="#4da3ff" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace" font-size="12" letter-spacing="0.12em">AVAILABLE</text>
+  <text x="148" y="188" fill="url(#shimmer)" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', system-ui, sans-serif" font-size="84" font-weight="600" letter-spacing="-0.03em">danial j</text>
+  <text x="152" y="236" fill="#f4f4f6" fill-opacity=".62" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace" font-size="20">Systems builder. Ship-first.</text>
+  <text x="152" y="268" fill="#f4f4f6" fill-opacity=".40" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace" font-size="14">production AI · live analytics · agent automation</text>
+  <text x="980" y="278" fill="#4da3ff" fill-opacity=".85" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace" font-size="13">danialj.com ↗</text>
+</svg>

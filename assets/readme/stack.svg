@@ -1,82 +1,114 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="140" viewBox="0 0 1280 140" role="img" aria-label="stack">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 140" width="1280" height="140" role="img" aria-label="stack">
   <defs>
-  <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="#ffffff" stop-opacity=".11"/>
-    <stop offset="1" stop-color="#ffffff" stop-opacity=".035"/>
-  </linearGradient>
-  <linearGradient id="glassTile" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="#ffffff" stop-opacity=".09"/>
-    <stop offset="1" stop-color="#ffffff" stop-opacity=".025"/>
-  </linearGradient>
-  <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#ffffff" stop-opacity=".38"/>
-    <stop offset=".55" stop-color="#4da3ff" stop-opacity=".18"/>
-    <stop offset="1" stop-color="#ffffff" stop-opacity=".08"/>
-  </linearGradient>
-  <linearGradient id="spec" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="#ffffff" stop-opacity=".32"/>
-    <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
-  </linearGradient>
-  <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="#4da3ff" stop-opacity=".85"/>
-    <stop offset="1" stop-color="#2a6bb0" stop-opacity=".45"/>
-  </linearGradient>
-  <linearGradient id="shimmer" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0" stop-color="#f4f4f6"/>
-    <stop offset=".42" stop-color="#f4f4f6"/>
-    <stop offset=".5" stop-color="#ffffff"/>
-    <stop offset=".58" stop-color="#f4f4f6"/>
-    <stop offset="1" stop-color="#f4f4f6"/>
-    <animate attributeName="x1" values="-1;1" dur="9s" repeatCount="indefinite"/>
-    <animate attributeName="x2" values="0;2" dur="9s" repeatCount="indefinite"/>
-  </linearGradient>
-  <radialGradient id="orbA" cx="22%" cy="18%" r="55%">
-    <stop offset="0" stop-color="#4da3ff" stop-opacity=".42"/>
-    <stop offset="1" stop-color="#4da3ff" stop-opacity="0"/>
-  </radialGradient>
-  <radialGradient id="orbB" cx="82%" cy="78%" r="48%">
-    <stop offset="0" stop-color="#7ec1ff" stop-opacity=".24"/>
-    <stop offset="1" stop-color="#7ec1ff" stop-opacity="0"/>
-  </radialGradient>
-  <radialGradient id="orbC" cx="70%" cy="12%" r="35%">
-    <stop offset="0" stop-color="#4da3ff" stop-opacity=".16"/>
-    <stop offset="1" stop-color="#4da3ff" stop-opacity="0"/>
-  </radialGradient>
-  <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
-    <feDropShadow dx="0" dy="22" stdDeviation="26" flood-color="#000000" flood-opacity=".58"/>
-  </filter>
-  <filter id="grain">
-    <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="7" result="n"/>
-    <feColorMatrix type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.035 0" in="n"/>
-  </filter>
-</defs>
+    <radialGradient id="orbA" cx=".18" cy=".28" r=".62">
+      <stop offset="0" stop-color="#4da3ff" stop-opacity=".95"/>
+      <stop offset=".35" stop-color="#4da3ff" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#4da3ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbB" cx=".82" cy=".85" r=".55">
+      <stop offset="0" stop-color="#7ec1ff" stop-opacity=".55"/>
+      <stop offset=".45" stop-color="#7ec1ff" stop-opacity=".20"/>
+      <stop offset="1" stop-color="#7ec1ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbC" cx=".58" cy=".08" r=".30">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vignette" cx=".5" cy=".5" r=".9">
+      <stop offset="0" stop-color="#0e0e12" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity=".55"/>
+    </radialGradient>
+    <linearGradient id="glassFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".18"/>
+      <stop offset=".35" stop-color="#ffffff" stop-opacity=".10"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity=".06"/>
+    </linearGradient>
+    <linearGradient id="glassTile" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".14"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity=".05"/>
+    </linearGradient>
+    <linearGradient id="specular" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".55"/>
+      <stop offset=".18" stop-color="#ffffff" stop-opacity=".22"/>
+      <stop offset=".55" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="returnLight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset=".6" stop-color="#ffffff" stop-opacity=".06"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity=".16"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".90"/>
+      <stop offset=".22" stop-color="#ffffff" stop-opacity=".32"/>
+      <stop offset=".50" stop-color="#4da3ff" stop-opacity=".42"/>
+      <stop offset=".78" stop-color="#ffffff" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity=".55"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4da3ff" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#2a6bb0" stop-opacity=".4"/>
+    </linearGradient>
+    <radialGradient id="chroma" cx=".92" cy=".12" r=".22">
+      <stop offset="0" stop-color="#4da3ff" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#4da3ff" stop-opacity="0"/>
+    </radialGradient>
+    
+    <filter id="softShadow" x="-12%" y="-25%" width="124%" height="160%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000" flood-opacity=".35"/>
+      <feDropShadow dx="0" dy="32" stdDeviation="40" flood-color="#000" flood-opacity=".55"/>
+    </filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="1.2" numOctaves="2" seed="7"/>
+      <feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .045 0"/>
+    </filter>
+    <filter id="blur14"><feGaussianBlur stdDeviation="14"/></filter>
+    <clipPath id="stkClip">
+      <rect x="100" y="30" width="1080" height="80" rx="40"/>
+    </clipPath>
+  </defs>
   <rect width="1280" height="140" fill="#070708"/>
+  <rect width="1280" height="140" fill="url(#vignette)"/>
   <rect width="1280" height="140" fill="url(#orbA)"/>
   <rect width="1280" height="140" fill="url(#orbB)"/>
-  <rect width="1280" height="140" filter="url(#grain)" opacity="1"/>
-  <rect x="100" y="30" width="1080" height="80" rx="40" fill="url(#glass)" stroke="url(#rim)" stroke-width="1.2" filter="url(#shadow)"/>
-  <rect x="101" y="31" width="1078" height="42" rx="38" fill="url(#spec)" opacity=".9"/>
-  <text x="132" y="76" fill="#f4f4f6" fill-opacity=".40" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace" font-size="12" letter-spacing="0.16em">STACK</text>
+  <rect width="1280" height="140" fill="url(#orbC)"/>
+  <g filter="url(#softShadow)">
+    <rect x="100" y="30" width="1080" height="80" rx="40" fill="#0b0b0f" opacity=".01"/>
+    <g clip-path="url(#stkClip)">
+      <g opacity=".55" filter="url(#blur14)">
+        <g transform="translate(10 14)"><rect width="1280" height="140" fill="url(#orbA)"/></g>
+        <g transform="translate(-8 12)"><rect width="1280" height="140" fill="url(#orbB)"/></g>
+      </g>
+      <rect x="100" y="30" width="1080" height="80" rx="40" fill="url(#glassFill)"/>
+      <rect x="100" y="30" width="1080" height="80" rx="40" filter="url(#grain)" opacity=".6"/>
+      <rect x="100" y="88" width="1080" height="22" fill="url(#returnLight)"/>
+      <rect x="100" y="30" width="1080" height="36" fill="url(#specular)"/>
+      <rect x="100" y="30" width="1080" height="80" fill="url(#chroma)"/>
+    </g>
+    <rect x="100" y="30" width="1080" height="80" rx="40" fill="none" stroke="url(#rim)" stroke-width="1.5"/>
+    <rect x="101.5" y="31.5" width="1077" height="77" rx="38.5" fill="none" stroke="#000000" stroke-opacity=".32" stroke-width="1"/>
+  </g>
+  <text x="132" y="76" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace" font-size="12" letter-spacing=".16em" fill="#f4f4f6" fill-opacity=".40">STACK</text>
   <rect x="210.0" y="54" width="61.6" height="32" rx="10" fill="url(#glassTile)" stroke="url(#rim)" stroke-width="1"/>
-  <text x="240.8" y="75" text-anchor="middle" fill="#f4f4f6" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace" font-size="11.5">Python</text>
+  <text x="240.8" y="75" text-anchor="middle" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace" font-size="11.5" fill="#f4f4f6">Python</text>
   <rect x="279.6" y="54" width="92.0" height="32" rx="10" fill="url(#glassTile)" stroke="url(#rim)" stroke-width="1"/>
-  <text x="325.6" y="75" text-anchor="middle" fill="#f4f4f6" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace" font-size="11.5">TypeScript</text>
+  <text x="325.6" y="75" text-anchor="middle" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace" font-size="11.5" fill="#f4f4f6">TypeScript</text>
   <rect x="379.6" y="54" width="69.2" height="32" rx="10" fill="url(#glassTile)" stroke="url(#rim)" stroke-width="1"/>
-  <text x="414.2" y="75" text-anchor="middle" fill="#f4f4f6" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace" font-size="11.5">Next.js</text>
+  <text x="414.2" y="75" text-anchor="middle" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace" font-size="11.5" fill="#f4f4f6">Next.js</text>
   <rect x="456.8" y="54" width="76.8" height="32" rx="10" fill="url(#glassTile)" stroke="url(#rim)" stroke-width="1"/>
-  <text x="495.2" y="75" text-anchor="middle" fill="#f4f4f6" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace" font-size="11.5">Supabase</text>
+  <text x="495.2" y="75" text-anchor="middle" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace" font-size="11.5" fill="#f4f4f6">Supabase</text>
   <rect x="541.6" y="54" width="61.6" height="32" rx="10" fill="url(#glassTile)" stroke="url(#rim)" stroke-width="1"/>
-  <text x="572.4" y="75" text-anchor="middle" fill="#f4f4f6" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace" font-size="11.5">Vercel</text>
+  <text x="572.4" y="75" text-anchor="middle" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace" font-size="11.5" fill="#f4f4f6">Vercel</text>
   <rect x="611.2" y="54" width="38.8" height="32" rx="10" fill="url(#glassTile)" stroke="url(#rim)" stroke-width="1"/>
-  <text x="630.6" y="75" text-anchor="middle" fill="#f4f4f6" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace" font-size="11.5">n8n</text>
+  <text x="630.6" y="75" text-anchor="middle" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace" font-size="11.5" fill="#f4f4f6">n8n</text>
   <rect x="658.0" y="54" width="38.8" height="32" rx="10" fill="url(#glassTile)" stroke="url(#rim)" stroke-width="1"/>
-  <text x="677.4" y="75" text-anchor="middle" fill="#f4f4f6" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace" font-size="11.5">RAG</text>
+  <text x="677.4" y="75" text-anchor="middle" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace" font-size="11.5" fill="#f4f4f6">RAG</text>
   <rect x="704.8" y="54" width="38.8" height="32" rx="10" fill="url(#glassTile)" stroke="url(#rim)" stroke-width="1"/>
-  <text x="724.2" y="75" text-anchor="middle" fill="#f4f4f6" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace" font-size="11.5">ETL</text>
+  <text x="724.2" y="75" text-anchor="middle" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace" font-size="11.5" fill="#f4f4f6">ETL</text>
   <rect x="751.6" y="54" width="31.2" height="32" rx="10" fill="url(#glassTile)" stroke="url(#rim)" stroke-width="1"/>
-  <text x="767.2" y="75" text-anchor="middle" fill="#f4f4f6" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace" font-size="11.5">BI</text>
+  <text x="767.2" y="75" text-anchor="middle" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace" font-size="11.5" fill="#f4f4f6">BI</text>
   <rect x="790.8" y="54" width="61.6" height="32" rx="10" fill="url(#glassTile)" stroke="url(#rim)" stroke-width="1"/>
-  <text x="821.6" y="75" text-anchor="middle" fill="#f4f4f6" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace" font-size="11.5">Agents</text>
+  <text x="821.6" y="75" text-anchor="middle" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace" font-size="11.5" fill="#f4f4f6">Agents</text>
   <rect x="860.4" y="54" width="38.8" height="32" rx="10" fill="url(#glassTile)" stroke="url(#rim)" stroke-width="1"/>
-  <text x="879.8" y="75" text-anchor="middle" fill="#f4f4f6" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace" font-size="11.5">LLM</text>
+  <text x="879.8" y="75" text-anchor="middle" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace" font-size="11.5" fill="#f4f4f6">LLM</text>
 </svg>
